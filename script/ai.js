@@ -17,7 +17,7 @@ module.exports.run = async function({
 }) {
   const input = args.join(' ');
   if (!input) {
-    api.sendMessage(`♡   ∩_∩\n    （„• ֊ •„)♡\n┏━∪∪━━━━ღ❦ღ┓`, event.threadID, event.messageID);
+    api.sendMessage(`🜋𝐆𝐀𝐁𝐑𝐈𝐄𝐋 𝐂𝐎𝐌𝐏𝐈𝐋𝐎𝐓🜋 \n●══════❍══════●\n 𝐲𝐨, 𝐒𝐚𝐥𝐮𝐭 𝐣𝐞 𝐦'𝐚𝐩𝐩𝐞𝐥𝐥𝐞 𝐀𝐈 , 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐩𝐞 𝐩𝐚𝐫 𝐥𝐞 🜋gabriel compilot🜋compilot 𝐩𝐨𝐬𝐞𝐳 𝐦𝐨𝐢 𝐯𝐨𝐭𝐫𝐞 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧`, event.threadID, event.messageID);
     return;
   }
   api.sendMessage(``, event.threadID, event.messageID);
@@ -26,7 +26,7 @@ module.exports.run = async function({
       data
     } = await axios.get(`https://hashier-api-globalgpt.vercel.app/api/globalgpt?q=${encodeURIComponent(input)}`);
     const response = data.response;
-    api.sendMessage('♡   ∩_∩\n    （„• ֊ •„)♡\n┏━∪∪━━━━ღ❦ღ┓\n🌐['+ response +'] ♡\n♡   𝘢𝘦𝘴𝘵𝘩𝘦𝘳-[📩]\n┗ღ❦ღ━━━━━━━┛\n[✦]|𝗚𝗣𝗧-𝟰 ', event.threadID, event.messageID);
+    api.sendMessage('𝐐𝐮𝐞𝐥 𝐞𝐬𝐭 𝐯𝐨𝐭𝐫𝐞 𝐬𝐨𝐮𝐜𝐢\n●══════❍══════●\n┏━∪∪━━━━ღ❦ღ┓\n🌐['+ response +'] ♡\n♡   𝐨𝐥𝐢𝐯𝐞𝐫-[📩]\n┗ღ❦ღ━━━━━━━┛\n[✦]|𝗚𝗣𝗧-𝟰 ', event.threadID, event.messageID);
   } catch (error) {
     api.sendMessage('An error occurred while processing your request.', event.threadID, event.messageID);
   }
