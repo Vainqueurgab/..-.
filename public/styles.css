@@ -1,11 +1,9 @@
 body {
 		 padding: 20px;
-		 background-image: url("https://i.postimg.cc/Gtf4fvHM/62f60eb00055ce5a3580bd91559f9f94.gif");
+		 background-image: url("https://i.ibb.co/R27xWLf/image.jpg");
 		 background-size: cover;
 		 font-family: 'Poppins', sans-serif;
-	         border-radius: 10px;
-	         background-attachment: fixed;
-	         animation: gradient 15s ease infinite;
+	   border-radius: 10px;
 }
  .container {
 	   color: #FFFF;
@@ -180,4 +178,4 @@ to {
 	 height: 70%%;
 	 object-fit: cover;
 	 margin: auto;
-}
+	 }
